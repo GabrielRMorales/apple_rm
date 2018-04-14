@@ -1,7 +1,11 @@
-main {
-	width: 1375px;
-	
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url('http://themes.googleusercontent.com/static/fonts/opensans/v5/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff') format('woff');
 }
+html, body, main { width:100%; height:100%; margin:0;  }
+
 #menu {
 	position: absolute;
 	top: 100px;
@@ -45,7 +49,7 @@ main {
 }
 
 #verse {
-	font-family: "Lucida Grande, Helvetica, Verdana";
+	font-family: "open sans","Lucida Grande", "Helvetica", "Verdana";
 	display: block;
 	height: 600px;
 	color: white;
@@ -67,10 +71,15 @@ h2 {
 h3{
 	font-size: 20px;
 }
+#other-products {
+	width: 100%;
+}
 #other-products img {
 	
-	width: 24.5%;
+	width: 24.6%;
 }
+
+
 footer {
 	margin: 0 125px;
 	font-size: 11px;
